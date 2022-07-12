@@ -1,0 +1,30 @@
+1) O que são métodos HTTP? 
+R: O protocolo Http define um conjunto de métodos de requisição responsáveis por indicar a ação a ser executada para um dado recurso. Embora esses métodos possam ser descritos como substantivos, eles também são comumente referenciados como Http.
+
+2) Quais são os métodos HTTP mais utilizados atualmente? 
+R: Get essa é a requisição mais comum de todas, Post. O método Post é utilizado quando queremos criar um recurso, Put. Requisita que um recurso seja "guardado" na URI fornecida, Delete. Exclui o recurso especificado.
+Trace, Options, Patch é Connect.
+
+3) Quais são os 2 principais métodos do HTTP? Qual é a diferença entre eles? 
+R: Os dois principais são o get é o post, o método Get cria uma seqüência de consulta(query string) e a acrescenta à url do script no servidor que manipula a solicitação. O método post cria um par nome ou valor que são passados no corpo da mensagem de pedido Http.
+
+4) O que são requisições HTTP? Quais os tipos? 
+R: Requisições http são mensagens enviadas pelo cliente para iniciar uma ação no servidor. Suas linhas iniciais contêm três elementos: Um método http um verbo (como Get , Put ou Post ) ou um nome (como Head ou Options ), que descrevem a ação a ser executada. Os tipos são, cada requisição http pode usar um dos muitos métodos de requisição existente, a versão http/1.1 suporta sete tipos de requisição: Get, Post, Head, Options, Put, Delete Trace. Get e Post são os mais usados em aplicações na internet.
+
+5) Como funciona uma requisição?
+ R:Requisições http são mensagens enviadas pelo cliente para iniciar uma ação no servidor. Suas linhas iniciais contêm três elementos. Um método http, um verbo (como Get , Put ou Post ) ou um nome (como Head ou Options ), que descrevem a ação a ser executada.
+
+6) O que é o método GET?
+ R: O método Get utiliza a própria url (normalmente chamada de Url) para enviar dados ao servidor, quando enviamos um formulário pelo método Get, o navegador pega as informações do formulário e coloca junto com a Url de onde o formulário vai ser enviado e envia, separando o endereço da Url dos dados do formulário por um.
+
+7) Qual é o protocolo de internet para transferência segura, com uso de certificado digital, utilizado em sites de compras eletrônicas? 
+R: O certificado ssl cria um canal criptografado que vai do navegador (browser) ao servidor web, impossibilitando que cibercriminosos compreendam as mensagens remetidas na rede.
+
+8)  Quais os principais métodos de uma requisição REST? 
+R: Há várias maneiras de fazer requisições Http do front end para o back end usando Rest eles são: Get, Put, Post, Patch, Delete sendo que alguns podem receber parâmetros na Url ou não.
+
+9) Qual a diferença entre IPv4 e IPv6? 
+R: O IPv4 possui endereços no padrão trinta é dois bits é sustenta cerca de quatro bilhões de combinações de endereços IP em todo o mundo. Já o IPv6 é a versão 6 do Protocolo de Internet, com endereços no padrão cento é vinte é oito bits.
+ 
+10) Faça um resumo sobre os seguintes protocolos: http, tcp, ip, udp, smtp e ftp? 
+R: Bom o Ftp é a sigla para File Transfer Protocol, que significa Protocolo de Transferência de Arquivos. Ele surgiu antes mesmo do padrão. Já o TCP/IP, que é a base das conexões de internet. É o modo mais simples de transferir dados entre duas máquinas por uma rede. O http encapsula cada arquivo em uma mensagem http diferente. Enquanto o Smtp coloca todo o conteúdo de um e-mail em uma única mensagem. O Udp é um protocolo simples da camada de transporte. Ele é descrito na Rfc sete é centos é oito e permite que a aplicação envie um datagrama encapsulado num pacote IPv4 ou IPv6 .
